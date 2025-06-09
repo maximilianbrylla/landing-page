@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header styles */
+
+.header {
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
