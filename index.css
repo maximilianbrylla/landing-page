@@ -42,6 +42,21 @@ html {
     color: #E5E7EB
 }
 
+/* Content styles */ 
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
 /* First section styles */
 
 .first-section-container {
@@ -195,6 +210,7 @@ html {
     align-items: center;
     background-color: #1F2937;
     padding: 24px;
+    flex-shrink: 0;
 }
 
 .footer p {
