@@ -186,3 +186,17 @@ html {
     color: white;
     font-weight: 700;
 }
+
+/* Footer styles */ 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 24px;
+}
+
+.footer p {
+    color: white;
+}
