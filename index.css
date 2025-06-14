@@ -48,8 +48,9 @@ html {
     display: flex;
     background-color: #1F2937;
     padding: 48px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 .first-section-container img{
@@ -78,6 +79,11 @@ html {
     color: white;
     text-align: center;
     border: none;
+}
+
+.first-section-container .sign-up-card {
+    flex-basis: 450px;
+    justify-content: flex-start;
 }
 
 /* Second section styles */
