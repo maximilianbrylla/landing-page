@@ -157,3 +157,32 @@ html {
     align-self: flex-end;
     font-weight: 700;
 }
+
+/* Fourth section styles */ 
+
+.fourth-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.fourth-section-container .call-to-action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 32px;
+    border-radius: 4px;
+    color: white;
+    flex-basis: 1200px;
+}
+
+.fourth-section-container .call-to-action-container .call-to-action-button button {
+    border: 2px solid white;
+    padding: 4px 24px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+}
