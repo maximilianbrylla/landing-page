@@ -130,4 +130,30 @@ html {
     margin-top: 5px;
 }
 
+/* Third section styles */
 
+.third-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 48px;
+}
+
+.third-section-container .quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.third-section-container .quote-container .quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;    
+    width: 775px;
+}
+
+.third-section-container .quote-container .quote-author {
+    align-self: flex-end;
+    font-weight: 700;
+}
